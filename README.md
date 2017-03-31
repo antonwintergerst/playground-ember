@@ -1,52 +1,55 @@
-# playground-ember
+# Playground for Ember (.js)
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a place to learn and play with Ember.
+
+Follow this process to start the Ember App for the first time:
+
+```
+# Open the directory
+cd playground-ember
+
+# Install dependencies
+npm install
+
+# Build and serve the App at localhost:4200
+ember server
+```
+
+## What is Ember?
+
+Ember is a declarative, component-based, data driven JavaScript application framework for building user interfaces.
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+### Skill
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Bower](https://bower.io/)
-* [Ember CLI](https://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+  * Able to read Markdown (this document is written in Markdown :smile:).
+  * Understand how to execute terminal commands.
+  * Experience with a package manager such as Homebrew: https://brew.sh/
 
-## Installation
+### Environment
 
-* `git clone <repository-url>` this repository
-* `cd playground-ember`
-* `npm install`
-* `bower install`
+  * Git
+  * Node.js: https://nodejs.org/en/
+  * NPM: (installed with Node)
+  * Text editor such as Atom: https://atom.io/
 
-## Running / Development
+## Get started
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+Follow this process to start from scratch with the Ember CLI:
 
-### Code Generators
+```
+# Install the Ember CLI
+npm install -g ember-cli
 
-Make use of the many generators for code, try `ember help generate` for more details
+# Generate project
+ember new playground-ember
+```
 
-### Running Tests
+## Learn more
 
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+  * Ember README.md: (included)
+  * Official website: https://emberjs.com/
+  * Guides: https://guides.emberjs.com/v2.12.0/
+  * Source: https://github.com/emberjs/ember.js/
+  * CLI Source: https://github.com/ember-cli/ember-cli
